@@ -11,9 +11,14 @@
 	<groupId>com.fintrack</groupId>
 	<artifactId>fintrack</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
-	<url/>
+	
+	<name>FinTrack</name>
+	<description>
+		Personal finance management application
+		built with Java Spring Boot and React.
+	</description>
+	<url>https://github.com/Feynava89/FinTrack</url>
+
 	<licenses>
 		<license/>
 	</licenses>
@@ -42,7 +47,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-crypto</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>

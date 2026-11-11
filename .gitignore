@@ -3,5 +3,14 @@
 .env.*
 !.env.example
 
-#Archivos de configuracion local
-application-local-properties
+#Maven
+target/
+
+#JAVA
+*.class
+*.log
+
+#Read/Node
+node_modules/
+dist/
+.vite/
